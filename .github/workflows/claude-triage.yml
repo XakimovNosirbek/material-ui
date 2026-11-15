@@ -17,7 +17,7 @@ jobs:
       pull-requests: write
       issues: write
       id-token: write
-    uses: mui/mui-public/.github/workflows/claude-triage.yml@d273bbedf2bc589425d71701964d01a9d67c9460 # master
+    uses: mui/mui-public/.github/workflows/claude-triage.yml@66349fd377283e3c89adb448f0827d7d4ef35362 # master
     with:
       issue-number: ${{ github.event.issue.number }}
       mode: triage
